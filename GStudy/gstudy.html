@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Diamond Ranking Visual Data Collection</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src = "../dragdropexport.js"></script>
+
+
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      max-height: 1rem;
+
+    }
+
+    .row{
+      margin-top: 1rem;
+    }
+
+    th{
+      text-align: center;
+    }
+
+
+    label{
+      color: white;
+      text-decoration-color: white;
+      vertical-align: middle;
+    }
+
+    input{
+      vertical-align: middle;
+    }
+
+    button{
+      vertical-align: middle;
+    }
+
+      .div1 {
+          width: 100%;
+          height: 100px;
+          padding: 10px;
+          border: 5px solid black;
+          background-color: #F5F5F5;
+      }
+
+      .bank {
+        width:100%;
+        height:100vh;
+      }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="../index.html">Back Home</a></li>
+        <li class=""><a href="#"></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      
+    </div>
+    <div class="col-sm-8 text-center">
+
+    <h1>Welcome to the Personhood Stable Diffusion Study</h1> 
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Continent/Country</th>
+      <th scope="col">Person</th>
+      <th scope="col">Woman</th>
+      <th scope="col">Man</th>
+      <th scope="col">Nonbinary</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+      <td style="border-width:4px"><b>No Region</b></td>
+      <td style="border-width:4px"><a href = "Person/20pyramid.html">Person Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A woman/20pyramid.html">Woman Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A man/20pyramid.html">Man Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A person of nonbinary gender/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td style="border-width:4px"><b>Asia</b></td>
+      <td style="border-width:4px"><a href = "Continents/Asia/Asian person/20pyramid.html">Person Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A woman/Asia/An Asian woman/20pyramid.html">Woman Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A man/Asia/An Asian man/20pyramid.html">Man Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A nonbinary person/Asia/An Asian nonbinary person/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>China</td>
+      <td><a href = "Continents/Asia/Chinese person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Asia/A Chinese woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Asia/China man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Asia/China nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Japan</td>
+      <td><a href = "Continents/Asia/Japanese person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Asia/A Japanese woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Asia/Japan man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Asia/Japan nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>India</td>
+      <td><a href = "Continents/Asia/Indian person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Asia/Indian woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Asia/Indian man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Asia/India nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Pakistan</td>
+      <td><a href = "Continents/Asia/Pakistani person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Asia/Pakistani/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Asia/Pakistan man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Asia/Pakistan nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Indonesia</td>
+      <td><a href = "Continents/Asia/Indonesian person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Asia/An Indonesian woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Asia/Indonesia man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Asia/Indonesia nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Bangladesh</td>
+      <td><a href = "Continents/Asia/Bangladeshi person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Asia/A Bangladeshi woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Asia/Bangladesh man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Asia/Bangladesh nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td style="border-width:4px"><b>Europe</b></td>
+      <td style="border-width:4px"><a href = "Continents/Europe/Europe person/20pyramid.html">Person Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A woman/Europe/A European woman/20pyramid.html">Woman Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A man/Europe/A Europe man/20pyramid.html">Man Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A person of nonbinary gender/Europe nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>UK</td>
+      <td><a href = "Continents/Europe/UK person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Europe/UK/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Europe/UK man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Europe/UK nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>France</td>
+      <td><a href = "Continents/Europe/France person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Europe/A French woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Europe/France man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Europe/France nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Germany</td>
+      <td><a href = "Continents/Europe/German person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Europe/A German woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Europe/German man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Europe/German nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Italy</td>
+      <td><a href = "Continents/Europe/Italy person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Europe/An Italian woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Europe/Italy man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Europe/Italy nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Russia</td>
+      <td><a href = "Continents/Europe/Russia person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Europe/A Russian woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Europe/Russian man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Europe/Russia nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td style="border-width:4px"><b>North America</b></td>
+      <td style="border-width:4px"><a href = "Continents/North America/North American person/20pyramid.html">Person Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A woman/North America/North Americam woman/20pyramid.html">Woman Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A man/North America/A North America man/20pyramid.html">Man Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A man/North America/North America nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>US</td>
+      <td><a href = "Continents/North America/USA person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/North America/An American woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/North America/USA man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A man/North America/US nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Mexico</td>
+      <td><a href = "Continents/North America/Mexican person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/North America/A Mexican woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/North America/Mexico man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A man/North America/Mexico nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Canada</td>
+      <td><a href = "Continents/North America/Canada person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/North America/A Canadian woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/North America/Canada man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A man/North America/Canada nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td style="border-width:4px"><b>Latin America</b></td>
+      <td style="border-width:4px"><a href = "Continents/Latin America/Latin American person/20pyramid.html">Person Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A woman/Latin America/A Latin American woman/20pyramid.html">Woman Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A man/Latin America/A Latin America man/20pyramid.html">Man Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A man/Latin America/Latin America nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Brazil</td>
+      <td><a href = "Continents/Latin America/Brazil person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Latin America/Brazilian woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Latin America/Brazil man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A man/Latin America/Brazil nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Argentina</td>
+      <td><a href = "Continents/Latin America/Argentina person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Latin America/Argentina woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Latin America/Argentina man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A man/Latin America/Argentina nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Colombia</td>
+      <td><a href = "Continents/Latin America/Colombia person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Latin America/A Colombian woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Latin America/Colombia man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A man/Latin America/Colombia nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Peru</td>
+      <td><a href = "Continents/Latin America/Peru person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Latin America/Peruvian woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Latin America/Peru man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A man/Latin America/Peru nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Venezuela</td>
+      <td><a href = "Continents/Latin America/Venezuela person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Latin America/Venezuelan woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Latin America/Venezuela man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A man/Latin America/Venezuela nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td style="border-width:4px"><b>Africa</b></td>
+      <td style="border-width:4px"><a href = "Continents/Africa/African person/20pyramid.html">Person Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A woman/Africa/An African woman/20pyramid.html">Woman Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A man/Africa/A Africa man/20pyramid.html">Man Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A person of nonbinary gender/Africa/Africa nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+     <tr>
+      <td>Ethiopia</td>
+      <td><a href = "Continents/Africa/Ethiopian person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Africa/An Ethiopian woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Africa/Ethiopian man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Africa/Ethiopian nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+      <tr>
+      <td>South Africa</td>
+      <td><a href = "Continents/Africa/South Africa person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Africa/A South African woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Africa/South Africa man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Africa/South Africa nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+      </tr>
+    <tr>
+      <td>Nigeria</td>
+      <td><a href = "Continents/Africa/Nigeria person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Africa/A Nigerian woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Africa/Nigeria man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Africa/Nigeria nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+      <tr>
+      <td>Egypt</td>
+      <td><a href = "Continents/Africa/Egypt person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Africa/An Egyptian woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Africa/Egypt man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Africa/Egypt nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Ghana</td>
+      <td><a href = "Continents/Africa/Ghana person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Africa/A Ghana woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Africa/Ghana man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Africa/Ghana nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td style="border-width:4px"><b>Oceania</b></td>
+      <td style="border-width:4px"><a href = "Continents/Oceania/Oceania person/20pyramid.html">Person Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A woman/Oceania/Oceania woman/20pyramid.html">Woman Test</a></td>
+      <td style="border-width:4px"><a href = "Gender/A man/Oceania/Oceania man/20pyramid.html">Man Test</a></td>
+      <td style="border-width:4px">Nonbinary Person Test</td>
+    </tr>
+    <tr>
+      <td>New Zealand</td>
+      <td><a href = "Continents/Oceania/New Zealand person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Oceania/New Zealand woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Oceania/New Zealand man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Oceania/New Zealand nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+    <tr>
+      <td>Papua New Guinea</td>
+      <td><a href = "Continents/Oceania/Papua New Guinea person/20pyramid.html">Person Test</a></td>
+      <td><a href = "Gender/A woman/Oceania/Papua New Guinea woman/20pyramid.html">Woman Test</a></td>
+      <td><a href = "Gender/A man/Oceania/Papua New Guinea man/20pyramid.html">Man Test</a></td>
+      <td><a href = "Gender/A person of nonbinary gender/Oceania/Papua New Guinea nonbinary/20pyramid.html">Nonbinary Person Test</a></td>
+    </tr>
+  </tbody>
+</table>        
+    </div>
+    <div class="col-sm-2 sidenav">
+      
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Made by <a href = "https://ninalutz.github.io/">Nina Lutz</a>, 2023</p>
+</footer>
+
+</body>
+</html>
